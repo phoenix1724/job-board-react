@@ -1,5 +1,6 @@
 
 import './App.css'
+<<<<<<< HEAD
 import Navbar from './components/Navbar';
 
 // const App = () => {
@@ -86,3 +87,19 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
   )
  };
  export default App;
+=======
+import Navbar from './Navbar';
+function App(){
+  return(
+    <div>
+      <Navbar />
+      <h1>Welcome to job board !</h1>
+      <p>Find and apply to your dream tech job today.</p>
+    </div>
+  )
+}
+
+
+
+export default App;
+>>>>>>> 6d40e9fda32cca0dd4c421f191ee6de89d14b19c
