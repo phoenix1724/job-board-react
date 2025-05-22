@@ -1,5 +1,4 @@
-import styled from 'styled-components';
-
+import styled from "styled-components";
 const Wrapper = styled.main`
   min-height: 100vh;
   text-align: center;
@@ -27,5 +26,4 @@ const Wrapper = styled.main`
     text-transform: capitalize;
   }
 `;
-
 export default Wrapper;

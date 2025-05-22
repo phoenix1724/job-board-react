@@ -1,16 +1,16 @@
- import main from '../assets/images/main.svg';
- import { Link } from 'react-router-dom';
- import Logo from '../components/Logo';
- import styled from 'styled-components';
- const Landing = () => {
+import main from "../assets/images/main.svg";
+import { Link } from "react-router-dom";
+import Logo from "../components/Logo";
+import styled from "styled-components";
+const Landing = () => {
   return (
     <StyledWrapper>
       <nav>
         <Logo />
       </nav>
-      <div className='container page'>
+      <div className="container page">
         {/* info */}
-        <div className='info'>
+        <div className="info">
           <h1>
             job <span>tracking</span> app
           </h1>
@@ -20,27 +20,26 @@
             quinoa lo-fi tote bag adaptogen everyday carry meggings +1 brunch
             narwhal.
           </p>
-          <Link to='/register' className='btn register-link'>
+          <Link to="/register" className="btn register-link">
             Register
           </Link>
-          <Link to='/login' className='btn'>
+          <Link to="/login" className="btn">
             Login / Demo User
           </Link>
         </div>
-        <img src={main} alt='job hunt' className='img main-img' />
+        <img src={main} alt="job hunt" className="img main-img" />
       </div>
     </StyledWrapper>
   );
- };
- const StyledWrapper = styled.section`
-  nav {
-    width: var(--fluid-width);
-    max-width: var(--max-width);
-    margin: 0 auto;
-    height: var(--nav-height);
-    display: flex;
-    align-items: center;
-  }
+};
+const StyledWrapper = styled.section`
+   nav {
+    
+    height: 110px;
+    width: 110px;
+    margin: 5px;
+    
+  } 
   .page {
     min-height: calc(100vh - var(--nav-height));
     display: grid;
@@ -78,5 +77,5 @@
       display: block;
     }
   }
- `;
- export default Landing;
+`;
+export default Landing;

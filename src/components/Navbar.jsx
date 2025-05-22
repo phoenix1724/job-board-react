@@ -1,17 +1,19 @@
-import './Navbar.css'
-
-function Navbar() {
-    return (
-        <nav className="navbar">
-            <h1>Jobify</h1>
-            <ul className="links">
-                <li><a href="/home">Home</a></li>
-                <li><a href="/create">New Job</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/profile">Profile</a></li>
-            </ul>
-        </nav>
-    )
-}
-
-export default Navbar;
+// import React from 'react';
+// import styled from 'styled-components';
+// const Navbar = () => {
+//     return (
+//         <Wrapper>
+//             <h1>Navbar</h1>
+//         </Wrapper>
+//     );
+// };
+// const Wrapper = styled.nav`
+// background-color: #fff;
+// height: 6rem;
+// display: flex;
+// align-items: center;
+// justify-content: space-between;
+// padding: 0 1rem;
+// box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+// `;
+// export default Navbar;

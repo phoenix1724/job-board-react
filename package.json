@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "app",
-=======
-  "name": "btcampjob",
->>>>>>> 6d40e9fda32cca0dd4c421f191ee6de89d14b19c
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,13 +11,9 @@
   },
   "dependencies": {
     "react": "^19.1.0",
-<<<<<<< HEAD
     "react-dom": "^19.1.0",
     "react-router-dom": "^6.10.0",
     "styled-components": "^5.3.10"
-=======
-    "react-dom": "^19.1.0"
->>>>>>> 6d40e9fda32cca0dd4c421f191ee6de89d14b19c
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
